@@ -1,0 +1,77 @@
+{
+	"id": "b6db8f68-7883-fc47-ce79-07f081ef4421",
+	"name": "AutomationAPI - Server",
+	"description": "",
+	"order": [
+		"a92fdbd8-afee-9bc5-ea26-d0f88b6c6103"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1504650218873,
+	"owner": "1556119",
+	"public": false,
+	"requests": [
+		{
+			"id": "a92fdbd8-afee-9bc5-ea26-d0f88b6c6103",
+			"headers": "Authorization: Basic ZGhhcmEuZ2hvZGFzYXJhOkRDRzEyM0BhdWc=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic ZGhhcmEuZ2hvZGFzYXJhOkRDRzEyM0BhdWc=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://jira.yourcompany.com/rest/qtm/latest/automation/importresults ",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b6db8f68-7883-fc47-ce79-07f081ef4421",
+			"data": [
+				{
+					"key": "apiKey",
+					"value": "c9e3a7a4b617d8882b139537e971a156d93523224c62df44cbf5f9f3318cfba6",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "format",
+					"value": "qas/json",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "testRunName",
+					"value": "Hi Test Run",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "testAssetHierarchy",
+					"value": "TestCase-TestStep",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "https://jira.yourcompany.com/rest/qtm/latest/automation/importresults ",
+			"description": "Upload automation test results. ",
+			"descriptionFormat": "html",
+			"time": 1504650226060,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
